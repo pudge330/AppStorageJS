@@ -56,7 +56,7 @@ if (appStorage.page.supported()) {
 }
 ```
 
-#### AppStorage.[engine].set(_k, _v[, _e])
+#### AppStorage.[engine].set(_k, _v, _e)
 
 ```javascript
 //--session storage
