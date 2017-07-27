@@ -50,3 +50,24 @@ var appStorage = new AppStorage(TagLoader);
 #### AppStorage.[engine].length()
 
 #### AppStorage.[engine].totalLength()
+
+## Functions
+
+**supported()** - *bool*
+
+**set(_k, _v, _e)** - 
+  * ___k__ - 
+  * ___v__ - 
+  * ___c__ - 
+
+**get(_k)** - *mixed*
+  * ___k__ - 
+
+**remove(_k)** - 
+  * ___k__ - 
+
+**clear()** - 
+
+**length()** - *int*
+
+**totalLength()** - *int*
