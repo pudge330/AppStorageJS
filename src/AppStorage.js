@@ -61,6 +61,17 @@ var AppStorage = function(_TagLoader) {
 			else
 				return 0;
 		}
+		,totalLength: function() {
+			if (this.supported()) {
+				var _count = 0;
+				for (var key in localStorage){
+					_count++;
+				}
+				return _count;
+			}
+			else
+				return 0;
+		}
 	};
 	var _pageStorage = function() {
 		this.instanceClass = this.itemClass + '_' + _randomNumber();
