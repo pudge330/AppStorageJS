@@ -6,7 +6,7 @@ Standard browser Session and Local storage plus live document storage all rolled
 * Only 4.2kb with TagLoader loaded
 * Added cache support
 * No Dependencies
-* Works with or without jQuery
+* Works without jQuery
 * Simple and easy to use
 
 ## Getting Started
@@ -16,14 +16,14 @@ Download and add `AppStorage` to your project.
 <script src="/scripts/AppStorage.min.js" type="text/javascript"></script>
 ```
 
-For live document `page` support also include the TagLoader library.
+For live document `page` support also include the `TagLoader` library.
 
 ```html
 <script src="/scripts/TagLoader.min.js" type="text/javascript"></script>
 <script src="/scripts/AppStorage.min.js" type="text/javascript"></script>
 ```
 
-### Instantiate a new instance of AppStorage, passing in TagLoader if using the `page` storage emgine.
+Instantiate a new instance of `AppStorage`, passing in `TagLoader` if using the `page` storage emgine.
 
 ```javascript
 //--without TagLoader, only supports local and session storage
