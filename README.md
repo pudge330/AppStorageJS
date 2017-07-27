@@ -3,7 +3,7 @@
 Standard browser Session and Local storage plus live document storage all rolled into one. With added cache support.
 
 * Under 3kb minified
-* Just over 4kb with TagLoader loaded
+* Only 4.2kb with TagLoader loaded
 * Added cache support
 * No Dependencies
 * Works with or without jQuery
