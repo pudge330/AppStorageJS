@@ -20,6 +20,7 @@ For live document `page` support also include the TagLoader library.
 
 ```html
 <script src="/scripts/TagLoader.min.js" type="text/javascript"></script>
+<script src="/scripts/AppStorage.min.js" type="text/javascript"></script>
 ```
 
 ### Instantiate a new instance of AppStorage, passing in TagLoader if using the `page` storage emgine.
