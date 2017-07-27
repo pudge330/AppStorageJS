@@ -163,3 +163,7 @@ console.log(appStorage.page.totalLength());
 **totalLength()** - *int* - Gets total size/count of stored data
   * For `session` and `local` storage `totalLength()` returns the amount of data objects including any stored expiration times
   * For `page` storage `totalLength()`  returns the amount of data stored in all instances of `AppStorage`
+
+## Coming Soon
+
+* Namespace support for `session` and `local` storage
