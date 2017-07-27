@@ -31,6 +31,22 @@ For live document `page` support also include the TagLoader library.
 var appStorage = new AppStorage();
 
 //--with TagLoader
-//--adds a live document storage storage engine `page`
+//--adds a live document storage engine `page`
 var appStorage = new AppStorage(TagLoader);
 ```
+
+## Using AppStorage
+
+#### AppStorage.[engine].supported()
+
+#### AppStorage.[engine].set(_k, _v, _e)
+
+#### AppStorage.[engine].get(_k)
+
+#### AppStorage.[engine].remove(_k)
+
+#### AppStorage.[engine].clear()
+
+#### AppStorage.[engine].length()
+
+#### AppStorage.[engine].totalLength()
