@@ -42,17 +42,17 @@ var appStorage = new AppStorage(TagLoader);
 ```javascript
 //--session storage
 if (appStorage.session.supported()) {
-	//--do something
+  //--do something
 }
 
 //--local storage
 if (appStorage.local.supported()) {
-	//--do something
+  //--do something
 }
 
 //--page storage
 if (appStorage.page.supported()) {
-	//--do something
+  //--do something
 }
 ```
 
