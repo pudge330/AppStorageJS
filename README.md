@@ -141,21 +141,25 @@ console.log(appStorage.page.totalLength());
 
 ## Functions
 
-**supported()** - *bool*
+**supported()** - *bool* - Determines whether or not that particular engine is suppoorted
 
-**set(_k, _v, _e)** - 
-  * ___k__ - 
-  * ___v__ - 
-  * ___c__ - 
+**set(_k, _v, _e)** - Stores a value
+  * ___k__ - *string* - The data's key
+  * ___v__ - *mixed* - Data to be stored
+  * ___c__ - *int* - Data's expiration in seconds
 
-**get(_k)** - *mixed*
-  * ___k__ - 
+**get(_k)** - *mixed* - Return the stored value if found, `null` if not or if value has expired
+  * ___k__ - *string* - The data's key
 
-**remove(_k)** - 
-  * ___k__ - 
+**remove(_k)** - Deletes a value by key
+  * ___k__ - *string* - The data's key
 
-**clear()** - 
+**clear()** - Clears all value in that storage engine
 
-**length()** - *int*
+**length()** - *int* - Gets size/count of the stored data
+  * For `session` and `local` storage `length()` return the amount of data objects minus any stored expiration times
+  * For `page` storage `length()` returns the amount of data stored in that paticular `AppStorage` instance
 
-**totalLength()** - *int*
+**totalLength()** - *int* - Gets total size/count of stored data
+  * For `session` and `local` storage `totalLength()`  return the amount of data objects including any stored expiration times
+  * For `page` storage `totalLength()`  returns the amount of data stored in all instances of `AppStorage`
